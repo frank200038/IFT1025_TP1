@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lac>
+    <energieSolaire>80000</energieSolaire>
+    <plante quantite="100">
+        <nomEspece>Bident de Beck</nomEspece>
+        <besoinEnergie>10</besoinEnergie>
+        <efficaciteEnergie>0.05</efficaciteEnergie>
+        <resilience>0.9</resilience>
+        <fertilite>0.02</fertilite>
+        <ageFertilite>5</ageFertilite>
+        <energieEnfant>10</energieEnfant>
+    </plante>
+    <plante quantite="400">
+        <nomEspece>Cornifle nageant</nomEspece>
+        <besoinEnergie>15</besoinEnergie>
+        <efficaciteEnergie>0.07</efficaciteEnergie>
+        <resilience>0.88</resilience>
+        <fertilite>0.015</fertilite>
+        <ageFertilite>7</ageFertilite>
+        <energieEnfant>20</energieEnfant>
+    </plante>
+    <plante quantite="550">
+        <nomEspece>Sagittaire</nomEspece>
+        <besoinEnergie>3</besoinEnergie>
+        <efficaciteEnergie>0.03</efficaciteEnergie>
+        <resilience>0.70</resilience>
+        <fertilite>0.08</fertilite>
+        <ageFertilite>4</ageFertilite>
+        <energieEnfant>4</energieEnfant>
+    </plante>
+    <herbivore quantite="80">
+        <nomEspece>Mulet perlé</nomEspece>
+        <besoinEnergie>4</besoinEnergie>
+        <efficaciteEnergie>0.6</efficaciteEnergie>
+        <resilience>0.9</resilience>
+        <fertilite>0.7</fertilite>
+        <ageFertilite>4</ageFertilite>
+        <energieEnfant>20</energieEnfant>
+        <tailleMaximum>100</tailleMaximum>
+        <debrouillardise>0.92</debrouillardise>
+        <voraciteMin>0.1</voraciteMin>
+        <voraciteMax>0.2</voraciteMax>
+        <aliments>Bident de Beck</aliments>
+        <aliments>Cornifle nageant</aliments>
+    </herbivore>
+    <herbivore quantite="200">
+        <nomEspece>Escargot</nomEspece>
+        <besoinEnergie>1</besoinEnergie>
+        <efficaciteEnergie>0.8</efficaciteEnergie>
+        <resilience>0.8</resilience>
+        <fertilite>0.6</fertilite>
+        <ageFertilite>1</ageFertilite>
+        <energieEnfant>10</energieEnfant>
+        <debrouillardise>0.82</debrouillardise>
+        <voraciteMin>0.05</voraciteMin>
+        <voraciteMax>0.07</voraciteMax>
+        <aliments>Cornifle nageant</aliments>
+        <aliments>Sagittaire</aliments>
+    </herbivore>
+    <carnivore quantite="2">
+        <nomEspece>Brochet</nomEspece>
+        <besoinEnergie>3</besoinEnergie>
+        <efficaciteEnergie>0.9</efficaciteEnergie>
+        <resilience>0.98</resilience>
+        <fertilite>0.08</fertilite>
+        <ageFertilite>12</ageFertilite>
+        <energieEnfant>50</energieEnfant>
+        <tailleMaximum>2000</tailleMaximum>
+        <debrouillardise>0.4</debrouillardise>
+        <aliments>Mulet perlé</aliments>
+    </carnivore>
+</lac>
