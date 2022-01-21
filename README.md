@@ -8,7 +8,7 @@
 # Details
 
 This is a simulation project done completely in Java. This project simulates a natural environement where we have plants, herbivores, carnivores and omnivores. 
-All of the organisms are able to live in this environment based on a set of rule and the rule of food chain (Herbivores eats plans etc.). Of course, all
+All of the organisms are able to live in this environment based on a set of rule (their food consumption, speed of reproduction etc.) and the rule of food chain (Herbivores eats plans etc.). Of course, all
 these organisms can reproduce offsprings as well.
 <br>
 
